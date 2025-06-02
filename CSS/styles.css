@@ -1,10 +1,20 @@
-body {
-    display: flex;
-    flex-direction: column;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.blogTitle {
-    text-align: center;
+body {
+  font-family: "Playfair Display", sans-serif, Arial;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
 }
 
 .navigation {
@@ -13,4 +23,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+@media (max-width: 135px) {
 }
