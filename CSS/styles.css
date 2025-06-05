@@ -36,6 +36,12 @@ body {
   gap: 5px;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  
+}
+
 @media (max-width: 295px) {
   .navbar-title {
     padding-top: 48px;
