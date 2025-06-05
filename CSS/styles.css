@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
 }
 
 body {
@@ -15,6 +14,7 @@ body {
 }
 
 .navbar {
+  padding: 20px;
   text-align: center;
   display: flex;
   gap: 10px;
@@ -22,16 +22,15 @@ body {
 }
 
 .navbar-title {
-  padding-top: 19px;
-  padding-left: 5px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 .navigation {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  padding: 20px;
   margin: 0;
   gap: 5px;
 }
@@ -39,21 +38,34 @@ body {
 .main-content {
   display: flex;
   flex-direction: column;
-  
+  align-items: center;
 }
 
-@media (max-width: 295px) {
+@media (max-width: 275px) {
   .navbar-title {
-    padding-top: 48px;
+    font-size: 0.9rem;
   }
   .navigation {
-    flex-wrap: wrap;
+    font-size: 0.9rem;
   }
 }
 
+@media (max-width: 263px) {
+  .navbar-title {
+    display: flex;
+    align-items: center;
+  }
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navigation li {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
 @media (max-width: 200px) {
   .navbar-title {
-    padding-top: 42px;
     font-size: 0.7rem;
   }
   .navigation {
@@ -61,63 +73,33 @@ body {
   }
 }
 
-@media (max-width: 161px) {
-  .navbar-title {
-    padding-top: 37px;
-    font-size: 0.5rem;
-  }
-  .navigation {
-    font-size: 0.5rem;
-  }
-}
-
-@media (max-width: 123px) {
+@media (max-width: 159px) {
   .navbar {
-    gap: 0;
-  }
-  .navbar-title {
-    padding-left: 0;
-  }
-  .navbar {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+  .navbar-title {
+    font-size: 0.5rem;
+  }
+  .navigation {
+    font-size: 0.5rem;
   }
 }
 
-@media (max-width: 68px) {
+@media (max-width: 72px) {
   .navbar {
-    gap: 0;
+    padding: 5px;
   }
   .navbar-title {
-    padding-left: 0;
     font-size: 0.3rem;
   }
   .navigation {
     font-size: 0.3rem;
   }
-}
-
-@media (max-width: 58px) {
-  .navbar {
-    gap: 0;
-  }
-  .navbar-title {
-    padding-left: 0;
-    font-size: 0.2rem;
-  }
-  .navigation {
-    font-size: 0.2rem;
+  .main-content {
+    font-size: 0.3rem;
   }
 }
 
-@media (max-width: 52px) {
-  .navbar {
-    gap: 0;
-  }
-  .navbar-title {
-    padding-left: 0;
-    font-size: 0.1rem;
-  }
-  .navigation {
-    font-size: 0.1rem;
-  }
-}
