@@ -16,6 +16,13 @@ body {
 
 .navbar {
   text-align: center;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-title {
+  padding-top: 10px;
+  padding-left: 5px;
 }
 
 .navigation {
@@ -29,7 +36,7 @@ body {
 
 @media (max-width: 171px) {
   .navbar-title {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
   }
   .navigation {
     flex-wrap: wrap;
