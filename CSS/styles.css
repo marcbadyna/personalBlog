@@ -17,7 +17,6 @@ body {
 .navbar {
   text-align: center;
   display: flex;
-  justify-content: space-between;
   gap: 10px;
   border-bottom: 0.5px solid #ddd5b0;
 }
@@ -37,7 +36,7 @@ body {
   gap: 5px;
 }
 
-@media (max-width: 280px) {
+@media (max-width: 295px) {
   .navbar-title {
     padding-top: 48px;
   }
@@ -46,7 +45,7 @@ body {
   }
 }
 
-@media (max-width: 186px) {
+@media (max-width: 200px) {
   .navbar-title {
     padding-top: 42px;
     font-size: 0.7rem;
@@ -56,7 +55,7 @@ body {
   }
 }
 
-@media (max-width: 146px) {
+@media (max-width: 161px) {
   .navbar-title {
     padding-top: 37px;
     font-size: 0.5rem;
