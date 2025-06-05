@@ -17,8 +17,9 @@ body {
 .navbar {
   text-align: center;
   display: flex;
+  justify-content: space-between;
   gap: 10px;
-  border-bottom: .5px solid #ddd5b0;
+  border-bottom: 0.5px solid #ddd5b0;
 }
 
 .navbar-title {
@@ -36,18 +37,59 @@ body {
   gap: 5px;
 }
 
-@media (max-width: 171px) {
+@media (max-width: 280px) {
+  .navigation {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 186px) {
   .navbar-title {
     font-size: 0.7rem;
   }
   .navigation {
-    flex-wrap: wrap;
     font-size: 0.7rem;
   }
 }
 
-@media (max-width: 60px) {
+@media (max-width: 146px) {
+  .navbar-title {
+    font-size: 0.5rem;
+  }
   .navigation {
     font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 123px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 68px) {
+  .navbar-title {
+    font-size: 0.3rem;
+  }
+  .navigation {
+    font-size: 0.3rem;
+  }
+}
+
+@media (max-width: 58px) {
+  .navbar-title {
+    font-size: 0.2rem;
+  }
+  .navigation {
+    font-size: 0.2rem;
+  }
+}
+
+@media (max-width: 52px) {
+  .navbar-title {
+    font-size: 0.1rem;
+  }
+  .navigation {
+    font-size: 0.1rem;
   }
 }
