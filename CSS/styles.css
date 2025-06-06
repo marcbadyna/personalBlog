@@ -35,15 +35,15 @@ body {
   padding-right: 2.5rem;
 }
 
-a {
+.nav-links {
   text-decoration: none;
 }
 
-a:visited {
+.nav-links:visited {
   color: #000;
 }
 
-a:hover {
+.nav-links:hover {
   color: gray;
 }
 
@@ -51,6 +51,35 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: .5rem;
+  margin-top: 0;
+}
+
+.heading span {
+  border-bottom: 3px solid #5eddac;
+}
+
+h2 {
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+.small {
+  font-size: 16px;
+  margin-top: .25rem;
+  color: #3576b8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.small:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 490px) {
