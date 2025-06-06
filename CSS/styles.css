@@ -153,6 +153,9 @@ footer {
 }
 
 @media (max-width: 147px) {
+  .b {
+    font-size: 0.3rem;
+  }
   .small {
     font-size: 0.7rem;
   }
@@ -167,6 +170,9 @@ footer {
   }
   .main-content {
     font-size: 0.5rem;
+  }
+  .b {
+    font-size: 0.2rem;
   }
   .footer {
     font-size: 0.5rem;
