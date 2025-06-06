@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -66,7 +67,7 @@ main {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   margin-top: 0;
 }
 
@@ -81,7 +82,7 @@ h2 {
 
 .small {
   font-size: 16px;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
   color: #3576b8;
   text-decoration: none;
   font-weight: 500;
@@ -123,6 +124,13 @@ footer {
     text-align: center;
   }
 }
+
+@media (max-width: 245px) {
+  .main-content {
+    font-size: 0.6rem;
+  }
+}
+
 @media (max-width: 200px) {
   .navbar {
     display: flex;
@@ -144,7 +152,13 @@ footer {
   }
 }
 
-@media (max-width: 72px) {
+@media (max-width: 147px) {
+  .small {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 85px) {
   .navbar-title {
     font-size: 0.5rem;
   }
@@ -153,5 +167,14 @@ footer {
   }
   .main-content {
     font-size: 0.5rem;
+  }
+  .footer {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 57px) {
+  .footer {
+    font-size: 0.4rem;
   }
 }

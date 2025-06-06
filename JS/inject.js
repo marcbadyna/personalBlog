@@ -13,5 +13,6 @@ async function loadHTML(selector, file) {
 
 window.addEventListener("DOMContentLoaded", () => {
   loadHTML("#navbar", "/PARTIALS/navbar.html");
+  loadHTML("#main", "/PARTIALS/main.html");
   loadHTML("#footer", "/PARTIALS/footer.html");
 });
