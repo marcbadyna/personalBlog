@@ -53,16 +53,29 @@ a:hover {
   align-items: center;
 }
 
-@media (max-width: 275px) {
+@media (max-width: 424px) {
   .navbar-title {
     font-size: 0.9rem;
   }
   .navigation {
     font-size: 0.9rem;
+    gap: 2rem;
+    padding-right: 2rem;
   }
 }
 
-@media (max-width: 263px) {
+@media (max-width: 315px) {
+  .navbar-title {
+    font-size: 0.9rem;
+  }
+  .navigation {
+    font-size: 0.9rem;
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 267px) {
   .navbar-title {
     display: flex;
     align-items: center;
@@ -90,27 +103,22 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
-  }
-  .navbar-title {
-    font-size: 0.6rem;
+    gap: 1rem;
   }
   .navigation {
-    font-size: 0.6rem;
+    padding: 0;
   }
 }
 
 @media (max-width: 72px) {
-  .navbar {
-    padding: 5px;
-  }
+  
   .navbar-title {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   .navigation {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   .main-content {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
 }
