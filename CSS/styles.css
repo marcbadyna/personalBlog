@@ -156,6 +156,9 @@ footer {
     flex: 1 1 100%;
     text-align: center;
   }
+  .b {
+    padding: 0;
+  }
 }
 
 @media (max-width: 245px) {
@@ -186,6 +189,9 @@ footer {
 }
 
 @media (max-width: 147px) {
+  h1 {
+    font-size: 1rem;
+  }
   .b {
     font-size: 0.3rem;
   }
