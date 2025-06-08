@@ -64,6 +64,11 @@ main {
   align-items: center;
 }
 
+.b {
+  align-items: flex-start;
+  padding: 5rem 10rem;
+}
+
 .heading h2 {
   display: flex;
   align-items: center;
@@ -74,6 +79,15 @@ main {
 
 .heading span {
   border-bottom: 3px solid #5eddac;
+}
+
+.sub-heading span {
+  border-left: 2px solid #5eddac;
+  padding-left: 5px;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 h2 {
