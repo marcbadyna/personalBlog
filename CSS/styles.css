@@ -94,7 +94,11 @@ h2 {
 }
 
 .blog-post {
-  text-align: center;
+  padding: 3rem;
+}
+
+.blog-article {
+  padding-top: 2rem;
 }
 
 footer {
