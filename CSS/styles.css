@@ -58,6 +58,16 @@ main {
   color: gray;
 }
 
+.post-link {
+  color: #3576b8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.post-link:hover {
+  color: #0e457cd0;
+}
+
 .main-content {
   display: flex;
   flex-direction: column;
@@ -81,7 +91,7 @@ main {
   border-bottom: 3px solid #5eddac;
 }
 
-.sub-heading span {
+.sub-heading {
   border-left: 2px solid #5eddac;
   padding-left: 5px;
 }
