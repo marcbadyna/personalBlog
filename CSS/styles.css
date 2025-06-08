@@ -168,6 +168,9 @@ footer {
   .small {
     font-size: 0.7rem;
   }
+  .blog-post {
+    padding: 0;
+  }
 }
 
 @media (max-width: 85px) {
