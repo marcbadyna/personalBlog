@@ -46,7 +46,6 @@ main {
 }
 
 .nav-links {
-  color: #000;
   text-decoration: none;
 }
 
@@ -76,7 +75,7 @@ main {
 
 .b {
   align-items: flex-start;
-  padding: 5rem 10rem;
+  padding: 3rem;
 }
 
 .heading h2 {
@@ -117,11 +116,6 @@ h2 {
   text-decoration: underline;
 }
 
-.blog-post {
-  align-items: start;
-  padding: 3rem;
-}
-
 .blog-article {
   padding-top: 2rem;
 }
@@ -134,21 +128,17 @@ footer {
 }
 
 @media (max-width: 490px) {
-  .navbar-title {
+  .navbar-title,
+  .navigation {
     font-size: 0.9rem;
   }
   .navigation {
-    font-size: 0.9rem;
     gap: 2rem;
     padding-right: 2rem;
   }
 }
 
 @media (max-width: 326px) {
-  .navbar-title {
-    display: flex;
-    align-items: center;
-  }
   .navigation {
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +163,6 @@ footer {
 
 @media (max-width: 200px) {
   .navbar {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
@@ -189,15 +178,13 @@ footer {
     font-size: 1rem;
   }
   .heading h2 {
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 }
 
 @media (max-width: 147px) {
   h1 {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   .b {
     font-size: 0.3rem;
