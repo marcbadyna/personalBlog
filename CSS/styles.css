@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   font-family: "Playfair Display", sans-serif, Arial;
   background-color: #faf7e8;
@@ -44,7 +39,7 @@ main {
   display: flex;
   list-style: none;
   gap: 2.5rem;
-  padding-right: 2.5rem;
+  padding-right: clamp(0rem, 5vw, 2.5rem);
 }
 
 .nav-links {
@@ -137,13 +132,13 @@ h2 {
 @media (max-width: 490px) {
   .navigation {
     gap: 2rem;
-    padding-right: 2rem;
   }
 }
 
 @media (max-width: 326px) {
   .navigation {
     flex-wrap: wrap;
+    padding: 0;
   }
   .navigation li {
     flex: 1 1 100%;
@@ -159,9 +154,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-  }
-  .navigation {
-    padding: 0;
   }
   .heading h2 {
     flex-direction: column;
