@@ -58,9 +58,12 @@ main {
 }
 
 .post-link {
-  color: #3576b8;
   font-weight: 600;
   text-decoration: none;
+}
+
+.link {
+  color: #3576b8;
 }
 
 .post-link:hover {
@@ -107,7 +110,6 @@ h2 {
 .small {
   font-size: 16px;
   margin-top: 0.25rem;
-  color: #3576b8;
   text-decoration: none;
   font-weight: 500;
 }
