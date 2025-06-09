@@ -143,7 +143,6 @@ h2 {
 
 @media (max-width: 326px) {
   .navigation {
-    display: flex;
     flex-wrap: wrap;
   }
   .navigation li {
