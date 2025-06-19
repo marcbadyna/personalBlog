@@ -142,6 +142,9 @@ h2 {
   .navigation {
     gap: 2rem;
   }
+  .heading h2 {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 326px) {
@@ -163,8 +166,5 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-  }
-  .heading h2 {
-    flex-direction: column;
   }
 }
