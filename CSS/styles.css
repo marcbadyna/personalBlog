@@ -123,6 +123,12 @@ h2 {
   padding-top: 2rem;
 }
 
+.time {
+  color: #575757;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
 .footer {
   background-color: #222;
   color: #fff;
